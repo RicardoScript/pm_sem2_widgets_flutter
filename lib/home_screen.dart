@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Widgets Básicos en Flutter"),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: const Color.fromARGB(255, 58, 183, 173),
       ),
       body: Center(
         child: Column(
@@ -69,7 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 });
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.deepPurple,
+                backgroundColor: const Color.fromARGB(255, 58, 183, 173),
                 padding:
                     const EdgeInsets.symmetric(vertical: 14, horizontal: 28),
                 shape: RoundedRectangleBorder(

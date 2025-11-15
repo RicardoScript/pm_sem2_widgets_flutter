@@ -12,7 +12,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Pantalla Widgets Básicos',
+      title: 'Flutter Modern UI',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF5A4FCF)),
+        useMaterial3: true,
+        scaffoldBackgroundColor: Colors.grey[100],
+      ),
       home: const HomeScreen(),
     );
   }
